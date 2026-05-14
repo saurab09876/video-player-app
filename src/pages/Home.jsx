@@ -1,4 +1,4 @@
-import videos from "../data/videos";
+import videos from "../data/video";
 import VideoCard from "../components/VideoCard";
 
 const Home = () => {

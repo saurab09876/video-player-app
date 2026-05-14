@@ -1,20 +1,22 @@
 const videos = [
   {
     id: 1,
-    title: "Big Buck Bunny",
+    title: "Flower Video",
     thumbnail:
-      "https://peach.blender.org/wp-content/uploads/title_anouncement.jpg",
+      "https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg",
+
     videoUrl:
-      "https://www.w3schools.com/html/mov_bbb.mp4",
+      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
   },
 
   {
     id: 2,
-    title: "Sample Video",
+    title: "Earth Video",
     thumbnail:
-      "https://dummyimage.com/300x200/000/fff.jpg&text=Video+2",
+      "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa",
+
     videoUrl:
-      "https://samplelib.com/lib/preview/mp4/sample-5s.mp4",
+      "https://www.w3schools.com/html/movie.mp4",
   },
 ];
 

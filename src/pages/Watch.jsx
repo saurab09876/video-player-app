@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
-import ReactPlayer from "react-player";
-import videos from "../data/videos";
+import videos from "../data/video";
 
 const Watch = () => {
   const { id } = useParams();
@@ -9,15 +8,19 @@ const Watch = () => {
 
   return (
     <div className="player-container">
-      <h2>{video.title}</h2>
+      <h1>{video.title}</h1>
 
-      <ReactPlayer
-        url={video.videoUrl}
-        controls
-        playing
+      <video
         width="100%"
-        height="500px"
-      />
+        height="500"
+        controls
+        autoPlay
+        muted
+      >
+        <source src={video.videoUrl} type="video/mp4" />
+
+        Your browser does not support video tag.
+      </video>
     </div>
   );
 };
